@@ -1,0 +1,11 @@
+{
+  "name": "webpack-dll-experiment",
+  "author": "Jan Poeschko",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "build": "cd dll && webpack && cd ../dll-user && webpack"
+  }
+}
