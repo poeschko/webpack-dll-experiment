@@ -20,4 +20,4 @@
 
 ## Conclusion
 
-The contents of a build artifact change (due to `DllReferencePlugin` referencing a different DLL name) without the output file name (based on `[contenthash]`) changing.
+The contents of a build artifact change (due to `DllReferencePlugin` referencing a different DLL name) without the output file name (based on `[chunkhash]`) changing.
